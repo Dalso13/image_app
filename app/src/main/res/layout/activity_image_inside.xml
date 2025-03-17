@@ -8,6 +8,7 @@
     tools:context=".ImageInsideActivity">
 
     <ImageView
+        android:id="@+id/mamber_image_area"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 

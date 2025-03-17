@@ -26,6 +26,8 @@ class MainActivity : AppCompatActivity() {
             btn.setOnClickListener {
                 val intent = Intent(this, ImageInsideActivity::class.java)
 
+                intent.putExtra("data", "${btn.id}")
+
                 startActivity(intent)
             }
         }
